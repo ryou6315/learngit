@@ -1,157 +1,157 @@
 Microsoft.DataFactory/datafactories/providers/Microsoft.Insights/diagnosticSettings
-读取 : Read diagnostic setting 
+璇诲彇 : Read diagnostic setting 
 Gets the diagnostic setting for the resource
-写入 : Write diagnostic setting 
+鍐欏叆 : Write diagnostic setting 
 Creates or updates the diagnostic setting for the resource
 Microsoft.DataFactory/datafactories/providers/Microsoft.Insights/metricDefinitions
-读取 : Read datafactories metric definitions 
+璇诲彇 : Read datafactories metric definitions 
 Gets the available metrics for datafactories
 Microsoft.DataFactory/datafactories/datasets
-读取 : Read Dataset 
+璇诲彇 : Read Dataset 
 Reads any Dataset.
-删除 : Delete Dataset 
+鍒犻櫎 : Delete Dataset 
 Deletes any Dataset.
-写入 : Create or Update Dataset 
+鍐欏叆 : Create or Update Dataset 
 Creates or Updates any Dataset.
 Microsoft.DataFactory/datafactories/datasets/activitywindows
-读取 : Read Activity Windows for any Dataset 
+璇诲彇 : Read Activity Windows for any Dataset 
 Reads Activity Windows for the Dataset with specified parameters.
 Microsoft.DataFactory/datafactories/datasets/sliceruns
-读取 : Read Data Slice Run 
+璇诲彇 : Read Data Slice Run 
 Reads the Data Slice Run for the given dataset with the given start time.
 Microsoft.DataFactory/datafactories/datasets/slices
-读取 : Read Data Slices 
+璇诲彇 : Read Data Slices 
 Gets the Data Slices in the given period.
-写入 : Update Data Slice Status 
+鍐欏叆 : Update Data Slice Status 
 Update the Status of the Data Slice.
 Microsoft.DataFactory/datafactories/tables
-读取 : Read Dataset 
+璇诲彇 : Read Dataset 
 Reads any Dataset.
-删除 : Delete Dataset 
+鍒犻櫎 : Delete Dataset 
 Deletes any Dataset.
-写入 : Create or Update Dataset 
+鍐欏叆 : Create or Update Dataset 
 Creates or Updates any Dataset.
 Microsoft.DataFactory/datafactories/gateways
-读取 : Read Gateway 
+璇诲彇 : Read Gateway 
 Reads any Gateway.
-写入 : Create or Update Gateway 
+鍐欏叆 : Create or Update Gateway 
 Creates or Updates any Gateway.
-删除 : Delete Gateway 
+鍒犻櫎 : Delete Gateway 
 Deletes any Gateway.
-其他 : Read Gateway Connection Info 
+鍏朵粬 : Read Gateway Connection Info 
 Reads the Connection Info for any Gateway.
-其他 : List Gateway Authentication Keys 
+鍏朵粬 : List Gateway Authentication Keys 
 Lists the Authentication Keys for any Gateway.
-其他 : Regenerate Gateway Authentication Keys 
+鍏朵粬 : Regenerate Gateway Authentication Keys 
 Regenerates the Authentication Keys for any Gateway.
 Microsoft.DataFactory/datafactories/linkedServices
-读取 : Read Linked Service 
+璇诲彇 : Read Linked Service 
 Reads any Linked Service.
-删除 : Delete Linked Service 
+鍒犻櫎 : Delete Linked Service 
 Deletes Linked Service.
-写入 : Create or Update any Linked Service. 
+鍐欏叆 : Create or Update any Linked Service. 
 Create or Update Linked Service
 Microsoft.DataFactory/factories/managedVirtualNetworks
-读取 : Read Managed Virtual Network 
+璇诲彇 : Read Managed Virtual Network 
 Read Managed Virtual Network.
-写入 : Create or Update Managed Virtual Network 
+鍐欏叆 : Create or Update Managed Virtual Network 
 Create or Update Managed Virtual Network.
 Microsoft.DataFactory/factories/managedVirtualNetworks/managedPrivateEndpoints
-读取 : Read Managed Private Endpoint 
+璇诲彇 : Read Managed Private Endpoint 
 Read Managed Private Endpoint.
-写入 : Create or Update Managed Private Endpoint 
+鍐欏叆 : Create or Update Managed Private Endpoint 
 Create or Update Managed Private Endpoint.
-删除 : Delete Managed Private Endpoint 
+鍒犻櫎 : Delete Managed Private Endpoint 
 Delete Managed Private Endpoint.
 Microsoft.DataFactory/factories/privateEndpointConnectionProxies
-读取 : Read Private Endpoint Connection Proxy 
+璇诲彇 : Read Private Endpoint Connection Proxy 
 Read Private Endpoint Connection Proxy.
-写入 : Create or Update private Endpoint Connection Proxy 
+鍐欏叆 : Create or Update private Endpoint Connection Proxy 
 Create or Update private Endpoint Connection Proxy.
-删除 : Delete Private Endpoint Connection Proxy 
+鍒犻櫎 : Delete Private Endpoint Connection Proxy 
 Delete Private Endpoint Connection Proxy.
-其他 : Validate a Private Endpoint Connection Proxy 
+鍏朵粬 : Validate a Private Endpoint Connection Proxy 
 Validate a Private Endpoint Connection Proxy.
 Microsoft.DataFactory/factories/privateEndpointConnectionProxies/operationresults
-读取 : Read the results of creating a Private Endpoint Connection Proxy 
+璇诲彇 : Read the results of creating a Private Endpoint Connection Proxy 
 Read the results of creating a Private Endpoint Connection Proxy.
 Microsoft.DataFactory/factories/privateEndpointConnectionProxies/operationstatuses
-读取 : Read the status of creating a Private Endpoint Connection Proxy 
+璇诲彇 : Read the status of creating a Private Endpoint Connection Proxy 
 Read the status of creating a Private Endpoint Connection Proxy.
 Microsoft.DataFactory/factories/privateEndpointConnections
-读取 : Read Private Endpoint Connection 
+璇诲彇 : Read Private Endpoint Connection 
 Read Private Endpoint Connection.
-写入 : Create or Update Private Endpoint Connection 
+鍐欏叆 : Create or Update Private Endpoint Connection 
 Create or Update Private Endpoint Connection.
-删除 : Delete Private Endpoint Connection 
+鍒犻櫎 : Delete Private Endpoint Connection 
 Delete Private Endpoint Connection.
 Microsoft.DataFactory/factories/privateLinkResources
-读取 : Read Private Link Resource 
+璇诲彇 : Read Private Link Resource 
 Read Private Link Resource.
 Microsoft.DataFactory/factories/pipelines
-读取 : Read Pipeline 
+璇诲彇 : Read Pipeline 
 Reads Pipeline.
-删除 : Delete Pipeline 
+鍒犻櫎 : Delete Pipeline 
 Deletes Pipeline.
-写入 : Create or Update any Pipeline. 
+鍐欏叆 : Create or Update any Pipeline. 
 Create or Update Pipeline
-其他 : Create Pipeline Run 
+鍏朵粬 : Create Pipeline Run 
 Creates a run for the Pipeline.
-其他 : Create Debug Pipeline Run Environment 
+鍏朵粬 : Create Debug Pipeline Run Environment 
 Creates a debug run environment for the Pipeline.
 Microsoft.DataFactory/factories/pipelines/pipelineruns
-读取 : Read Pipeline Run 
+璇诲彇 : Read Pipeline Run 
 Reads the Pipeline Run.
 Microsoft.DataFactory/factories/pipelines/pipelineruns/activityruns/progress
-读取 : Get the Progress of Activity Runs 
+璇诲彇 : Get the Progress of Activity Runs 
 Gets the Progress of Activity Runs.
 Microsoft.DataFactory/factories/pipelines/sandbox
-其他 : Create Debug Pipeline Run Environment 
+鍏朵粬 : Create Debug Pipeline Run Environment 
 Creates a debug run environment for the Pipeline.
-其他 : Create Debug Pipeline Run 
+鍏朵粬 : Create Debug Pipeline Run 
 Creates a debug run for the Pipeline.
 Microsoft.DataFactory/factories/providers/Microsoft.Insights/logDefinitions
-读取 : Read factories log definitions 
+璇诲彇 : Read factories log definitions 
 Gets the available logs for factories
 Microsoft.DataFactory/factories/triggers
-读取 : Read Trigger 
+璇诲彇 : Read Trigger 
 Reads any Trigger.
-写入 : Create or Update Trigger 
+鍐欏叆 : Create or Update Trigger 
 Creates or Updates any Trigger.
-删除 : Delete Trigger 
+鍒犻櫎 : Delete Trigger 
 Deletes any Trigger.
-其他 : Subscribe to Events 
+鍏朵粬 : Subscribe to Events 
 Subscribe to Events.
-其他 : Event Subscription Status 
+鍏朵粬 : Event Subscription Status 
 Event Subscription Status.
-其他 : Unsubscribe from Events 
+鍏朵粬 : Unsubscribe from Events 
 Unsubscribe from Events.
-其他 : Query subscription events 
+鍏朵粬 : Query subscription events 
 Query subscription events.
-其他 : Delete queued subscription events 
+鍏朵粬 : Delete queued subscription events 
 Delete queued subscription events.
-其他 : Start Trigger 
+鍏朵粬 : Start Trigger 
 Starts any Trigger.
-其他 : Stop Trigger 
+鍏朵粬 : Stop Trigger 
 Stops any Trigger.
 Microsoft.DataFactory/factories/triggers/triggerruns
-读取 : Read Trigger Runs 
+璇诲彇 : Read Trigger Runs 
 Reads the Trigger Runs.
-其他 : Cancel Trigger Run 
+鍏朵粬 : Cancel Trigger Run 
 Cancel the Trigger Run with the given trigger run id.
-其他 : Rerun Trigger Run 
+鍏朵粬 : Rerun Trigger Run 
 Rerun the Trigger Run with the given trigger run id.
 Microsoft.DataFactory/locations
-其他 : Configure Factory Repository 
+鍏朵粬 : Configure Factory Repository 
 Configures the repository for the factory.
-其他 : Get exposure control feature value 
+鍏朵粬 : Get exposure control feature value 
 Get exposure control feature value for the specific location.
 Microsoft.DataFactory/locations/getFeatureValue
-读取 : Read exposure control feature value 
+璇诲彇 : Read exposure control feature value 
 Reads exposure control feature value for the specific location.
 Microsoft.DataFactory/checkazuredatafactorynameavailability
-读取 : Check Data Factory Name Availability 
+璇诲彇 : Check Data Factory Name Availability 
 Checks if the Data Factory Name is available to use.
 Microsoft.DataFactory/operations
-读取 : Read all Operations 
+璇诲彇 : Read all Operations 
 Reads all Operations in Microsoft Data Factory Provider.
