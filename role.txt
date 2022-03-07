@@ -1,3 +1,18 @@
+Microsoft.DataFactory
+其他 : Register Data Factory Resource Provider 
+Registers the subscription for the Data Factory Resource Provider.
+其他 : Unregister Data Factory Resource Provider 
+Unregisters the subscription for the Data Factory Resource Provider.
+Microsoft.DataFactory/datafactories
+读取 : Read Data Factory 
+Reads the Data Factory.
+写入 : Create or Update Data Factory 
+Creates or Updates the Data Factory.
+删除 : Delete Data Factory 
+Deletes the Data Factory.
+Microsoft.DataFactory/datafactories/activitywindows
+读取 : Read Activity Windows in any Data Factory 
+Reads Activity Windows in the Data Factory with specified parameters.
 Microsoft.DataFactory/datafactories/providers/Microsoft.Insights/diagnosticSettings
 读取 : Read diagnostic setting 
 Gets the diagnostic setting for the resource
