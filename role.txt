@@ -1,172 +1,325 @@
 Microsoft.DataFactory
-其他 : Register Data Factory Resource Provider 
+その他 : Register Data Factory Resource Provider 
 Registers the subscription for the Data Factory Resource Provider.
-其他 : Unregister Data Factory Resource Provider 
+その他 : Unregister Data Factory Resource Provider 
 Unregisters the subscription for the Data Factory Resource Provider.
 Microsoft.DataFactory/datafactories
-读取 : Read Data Factory 
+読み取り : Read Data Factory 
 Reads the Data Factory.
-写入 : Create or Update Data Factory 
+書き込み : Create or Update Data Factory 
 Creates or Updates the Data Factory.
-删除 : Delete Data Factory 
+削除 : Delete Data Factory 
 Deletes the Data Factory.
 Microsoft.DataFactory/datafactories/activitywindows
-读取 : Read Activity Windows in any Data Factory 
+読み取り : Read Activity Windows in any Data Factory 
 Reads Activity Windows in the Data Factory with specified parameters.
 Microsoft.DataFactory/datafactories/providers/Microsoft.Insights/diagnosticSettings
-读取 : Read diagnostic setting 
+読み取り : Read diagnostic setting 
 Gets the diagnostic setting for the resource
-写入 : Write diagnostic setting 
+書き込み : Write diagnostic setting 
 Creates or updates the diagnostic setting for the resource
 Microsoft.DataFactory/datafactories/providers/Microsoft.Insights/metricDefinitions
-读取 : Read datafactories metric definitions 
+読み取り : Read datafactories metric definitions 
 Gets the available metrics for datafactories
 Microsoft.DataFactory/datafactories/datasets
-读取 : Read Dataset 
+読み取り : Read Dataset 
 Reads any Dataset.
-删除 : Delete Dataset 
+削除 : Delete Dataset 
 Deletes any Dataset.
-写入 : Create or Update Dataset 
+書き込み : Create or Update Dataset 
 Creates or Updates any Dataset.
 Microsoft.DataFactory/datafactories/datasets/activitywindows
-读取 : Read Activity Windows for any Dataset 
+読み取り : Read Activity Windows for any Dataset 
 Reads Activity Windows for the Dataset with specified parameters.
 Microsoft.DataFactory/datafactories/datasets/sliceruns
-读取 : Read Data Slice Run 
+読み取り : Read Data Slice Run 
 Reads the Data Slice Run for the given dataset with the given start time.
 Microsoft.DataFactory/datafactories/datasets/slices
-读取 : Read Data Slices 
+読み取り : Read Data Slices 
 Gets the Data Slices in the given period.
-写入 : Update Data Slice Status 
+書き込み : Update Data Slice Status 
 Update the Status of the Data Slice.
 Microsoft.DataFactory/datafactories/tables
-读取 : Read Dataset 
+読み取り : Read Dataset 
 Reads any Dataset.
-删除 : Delete Dataset 
+削除 : Delete Dataset 
 Deletes any Dataset.
-写入 : Create or Update Dataset 
+書き込み : Create or Update Dataset 
 Creates or Updates any Dataset.
 Microsoft.DataFactory/datafactories/gateways
-读取 : Read Gateway 
+読み取り : Read Gateway 
 Reads any Gateway.
-写入 : Create or Update Gateway 
+書き込み : Create or Update Gateway 
 Creates or Updates any Gateway.
-删除 : Delete Gateway 
+削除 : Delete Gateway 
 Deletes any Gateway.
-其他 : Read Gateway Connection Info 
+その他 : Read Gateway Connection Info 
 Reads the Connection Info for any Gateway.
-其他 : List Gateway Authentication Keys 
+その他 : List Gateway Authentication Keys 
 Lists the Authentication Keys for any Gateway.
-其他 : Regenerate Gateway Authentication Keys 
+その他 : Regenerate Gateway Authentication Keys 
 Regenerates the Authentication Keys for any Gateway.
 Microsoft.DataFactory/datafactories/linkedServices
-读取 : Read Linked Service 
+読み取り : Read Linked Service 
 Reads any Linked Service.
-删除 : Delete Linked Service 
+削除 : Delete Linked Service 
+Deletes any Linked Service.
+書き込み : Create or Update Linked Service 
+Creates or Updates any Linked Service.
+Microsoft.DataFactory/datafactories/datapipelines
+読み取り : Read Pipeline 
+Reads any Pipeline.
+削除 : Delete Pipeline 
+Deletes any Pipeline.
+その他 : Pause Pipeline 
+Pauses any Pipeline.
+その他 : Resume Pipeline 
+Resumes any Pipeline.
+その他 : Update Pipeline 
+Updates any Pipeline.
+書き込み : Create or Update Pipeline 
+Creates or Updates any Pipeline.
+Microsoft.DataFactory/datafactories/datapipelines/activities/activitywindows
+読み取り : Read Activity Windows for any Pipeline Activity 
+Reads Activity Windows for the Pipeline Activity with specified parameters.
+Microsoft.DataFactory/datafactories/datapipelines/activitywindows
+読み取り : Read Activity Windows for any Pipeline 
+Reads Activity Windows for the Pipeline with specified parameters.
+Microsoft.DataFactory/datafactories/runs/loginfo
+読み取り : Read Run Log Info 
+Reads a SAS URI to a blob container containing the logs.
+Microsoft.DataFactory/factories
+読み取り : Read Data Factory 
+Reads Data Factory.
+書き込み : Create or Update any Data Factory. 
+Create or Update Data Factory
+削除 : Delete Data Factory 
+Deletes Data Factory.
+その他 : Create Data Flow debug session. 
+Creates a Data Flow debug session.
+その他 : Start Data Flow debug session. 
+Starts a Data Flow debug session.
+その他 : Add Data Flow to debug session. 
+Add Data Flow to debug session for preview.
+その他 : Execute Data Flow debug command. 
+Execute Data Flow debug command.
+その他 : Delete Data Flow debug session. 
+Deletes a Data Flow debug session.
+その他 : Query Data Flow debug session. 
+Queries a Data Flow debug session.
+その他 : Cancel any Pipeline Run 
+Cancels the pipeline run specified by the run ID.
+その他 : Cancel Debug Pipeline Run 
+Cancels a debug run for the Pipeline.
+その他 : Query Debug Pipeline Runs 
+Queries the Debug Pipeline Runs.
+その他 : Query Triggers 
+Queries the Triggers.
+その他 : Get exposure control feature value 
+Get exposure control feature value for the specific location.
+その他 : Get exposure control feature values for a list of features 
+Get exposure control feature values for a list of features
+その他 : Get DataPlane access 
+Gets access to ADF DataPlane service.
+その他 : Get GitHub access token 
+Gets GitHub access token.
+その他 : Query Trigger Runs 
+Queries the Trigger Runs.
+その他 : Query Pipeline Runs 
+Queries the Pipeline Runs.
+その他 : Query Debug Pipeline Runs 
+Queries the Debug Pipeline Runs.
+Microsoft.DataFactory/factories/getDataPlaneAccess
+読み取り : Read DataPlane access 
+Reads access to ADF DataPlane service.
+Microsoft.DataFactory/factories/getFeatureValue
+読み取り : Read exposure control feature value 
+Reads exposure control feature value for the specific location.
+Microsoft.DataFactory/factories/operationResults
+読み取り : Get operation results. 
+Gets operation results.
+Microsoft.DataFactory/factories/pipelineruns
+読み取り : Read Pipeline Runs 
+Reads the Pipeline Runs.
+その他 : Cancel any Pipeline Run 
+Cancels the pipeline run specified by the run ID.
+その他 : Query Activity Runs 
+Queries the activity runs for the specified pipeline run ID.
+
+Microsoft.DataFactory/factories/pipelineruns/activityruns
+読み取り : Read Activity Runs 
+Reads the activity runs for the specified pipeline run ID.
+Microsoft.DataFactory/factories/pipelineruns/queryactivityruns
+読み取り : Read the Result of Query Activity Runs 
+Reads the result of query activity runs for the specified pipeline run ID.
+Microsoft.DataFactory/factories/providers/Microsoft.Insights/diagnosticSettings
+読み取り : Read diagnostic setting 
+Gets the diagnostic setting for the resource
+書き込み : Write diagnostic setting 
+Creates or updates the diagnostic setting for the resource
+Microsoft.DataFactory/factories/providers/Microsoft.Insights/metricDefinitions
+読み取り : Read metric definitions 
+Gets the available metrics for factories
+Microsoft.DataFactory/factories/queryFeaturesValue
+読み取り : Read exposure control feature values for a list of features 
+Reads exposure control feature values for a list of features.
+Microsoft.DataFactory/factories/querypipelineruns
+読み取り : Read the Result of Query Pipeline Runs 
+Reads the Result of Query Pipeline Runs.
+Microsoft.DataFactory/factories/querytriggerruns
+読み取り : Read the Result of Query Trigger Runs 
+Reads the Result of Trigger Runs.
+Microsoft.DataFactory/factories/triggerruns
+読み取り : Read Trigger Runs 
+Reads the Trigger Runs.
+Microsoft.DataFactory/factories/dataflows
+読み取り : Read Data Flow 
+Reads Data Flow.
+削除 : Delete Data Flow 
+Deletes Data Flow.
+書き込み : Create or update any Data Flow. 
+Create or update Data Flow
+Microsoft.DataFactory/factories/datasets
+読み取り : Read Dataset 
+Reads any Dataset.
+削除 : Delete Dataset 
+Deletes any Dataset.
+書き込み : Create or Update Dataset 
+Creates or Updates any Dataset.
+Microsoft.DataFactory/factories/debugpipelineruns
+その他 : Cancel Debug Pipeline Run 
+Cancels a debug run for the Pipeline.
+Microsoft.DataFactory/factories/sandboxpipelineruns
+読み取り : Get Debug Pipeline Run Info 
+Gets the debug run info for the Pipeline.
+Microsoft.DataFactory/factories/sandboxpipelineruns/sandboxActivityRuns
+読み取り : Get Debug Run Info 
+Gets the debug run info for the Activity.
+Microsoft.DataFactory/factories/integrationruntimes
+読み取り : Read Integration Runtime 
+Reads any Integration Runtime.
+書き込み : Create or Update Integration Runtime 
+Creates or Updates any Integration Runtime.
+削除 : Delete Integration Runtime 
+Deletes any Integration Runtime.
+その他 : Start Integration Runtime 
+Starts any Integration Runtime.
+その他 : Stop Integration Runtime 
+Stops any Integration Runtime.
+その他 : Read Integration Runtime Connection Info 
+Reads Integration Runtime Connection Info.
+その他 : List Integration Runtime Authentication Keys 
+Lists the Authentication Keys for any Integration Runtime.
+その他 : Sync Credentials for Integration Runtime 
+Syncs the Credentials for the specified Integration Runtime.
+
+その他 : Upgrade Integration Runtime 
+Upgrades the specified Integration Runtime.
+その他 : Create Self hosted Integration Runtime express install link 
+Create express install link for self hosted Integration Runtime.
+その他 : Regenerate Integration Runtime Authentication Keys 
+Regenerates the Authentication Keys for the specified Integration Runtime.
+その他 : Remove Linked Integration Runtime References 
+Removes Linked Integration Runtime References from the specified Integration Runtime.
+その他 : Create Linked Integration Runtime Reference 
+Create Linked Integration Runtime Reference on the Specified Shared Integration Runtime.
+その他 : Get SSIS Integration Runtime metadata 
+Get SSIS Integration Runtime metadata for the specified Integration Runtime.
+その他 : Refresh SSIS Integration Runtime metadata 
+Refresh SSIS Integration Runtime metadata for the specified Integration Runtime.
+その他 : Enable interactive authoring session 
+Enable interactive authoring session.
+その他 : Disable interactive authoring session. 
+Disable interactive authoring session.
+Microsoft.DataFactory/factories/integrationruntimes/getstatus
+読み取り : Read Integration Runtime Status 
+Reads Integration Runtime Status.
+Microsoft.DataFactory/factories/integrationruntimes/monitoringdata
+読み取り : Get Integration Runtime Monitoring Data 
+Gets the Monitoring Data for any Integration Runtime.
+Microsoft.DataFactory/factories/integrationruntimes/nodes
+読み取り : Read Integration Runtime Node 
+Reads the Node for the specified Integration Runtime.
+削除 : Delete Integration Runtime Node 
+Deletes the Node for the specified Integration Runtime.
+書き込み : Update Integration Runtime Node 
+Updates a self-hosted Integration Runtime Node.
+その他 : Read Integration Runtime Node IP Address 
+Returns the IP Address for the specified node of the Integration Runtime.
+Microsoft.DataFactory/factories/integrationruntimes/outboundNetworkDependenciesEndpoints
+読み取り : Get Azure-SSIS Integration Runtime outbound network dependencies 
+Get Azure-SSIS Integration Runtime outbound network dependency endpoints for the specified Integration Runtime.
+Microsoft.DataFactory/factories/linkedServices
+読み取り : Read Linked Service 
+Reads Linked Service.
+削除 : Delete Linked Service 
 Deletes Linked Service.
-写入 : Create or Update any Linked Service. 
+書き込み : Create or Update any Linked Service. 
 Create or Update Linked Service
 Microsoft.DataFactory/factories/managedVirtualNetworks
-读取 : Read Managed Virtual Network 
+読み取り : Read Managed Virtual Network 
 Read Managed Virtual Network.
-写入 : Create or Update Managed Virtual Network 
+書き込み : Create or Update Managed Virtual Network 
 Create or Update Managed Virtual Network.
 Microsoft.DataFactory/factories/managedVirtualNetworks/managedPrivateEndpoints
-读取 : Read Managed Private Endpoint 
+読み取り : Read Managed Private Endpoint 
 Read Managed Private Endpoint.
-写入 : Create or Update Managed Private Endpoint 
+書き込み : Create or Update Managed Private Endpoint 
 Create or Update Managed Private Endpoint.
-删除 : Delete Managed Private Endpoint 
+削除 : Delete Managed Private Endpoint 
 Delete Managed Private Endpoint.
 Microsoft.DataFactory/factories/privateEndpointConnectionProxies
-读取 : Read Private Endpoint Connection Proxy 
+読み取り : Read Private Endpoint Connection Proxy 
 Read Private Endpoint Connection Proxy.
-写入 : Create or Update private Endpoint Connection Proxy 
+書き込み : Create or Update private Endpoint Connection Proxy 
 Create or Update private Endpoint Connection Proxy.
-删除 : Delete Private Endpoint Connection Proxy 
+削除 : Delete Private Endpoint Connection Proxy 
 Delete Private Endpoint Connection Proxy.
-其他 : Validate a Private Endpoint Connection Proxy 
+その他 : Validate a Private Endpoint Connection Proxy 
 Validate a Private Endpoint Connection Proxy.
 Microsoft.DataFactory/factories/privateEndpointConnectionProxies/operationresults
-读取 : Read the results of creating a Private Endpoint Connection Proxy 
+読み取り : Read the results of creating a Private Endpoint Connection Proxy 
 Read the results of creating a Private Endpoint Connection Proxy.
 Microsoft.DataFactory/factories/privateEndpointConnectionProxies/operationstatuses
-读取 : Read the status of creating a Private Endpoint Connection Proxy 
+読み取り : Read the status of creating a Private Endpoint Connection Proxy 
 Read the status of creating a Private Endpoint Connection Proxy.
 Microsoft.DataFactory/factories/privateEndpointConnections
-读取 : Read Private Endpoint Connection 
+読み取り : Read Private Endpoint Connection 
 Read Private Endpoint Connection.
-写入 : Create or Update Private Endpoint Connection 
+書き込み : Create or Update Private Endpoint Connection 
 Create or Update Private Endpoint Connection.
-删除 : Delete Private Endpoint Connection 
+削除 : Delete Private Endpoint Connection 
 Delete Private Endpoint Connection.
 Microsoft.DataFactory/factories/privateLinkResources
-读取 : Read Private Link Resource 
+読み取り : Read Private Link Resource 
 Read Private Link Resource.
 Microsoft.DataFactory/factories/pipelines
-读取 : Read Pipeline 
+読み取り : Read Pipeline 
 Reads Pipeline.
-删除 : Delete Pipeline 
+削除 : Delete Pipeline 
 Deletes Pipeline.
-写入 : Create or Update any Pipeline. 
+書き込み : Create or Update any Pipeline. 
 Create or Update Pipeline
-其他 : Create Pipeline Run 
+その他 : Create Pipeline Run 
 Creates a run for the Pipeline.
-其他 : Create Debug Pipeline Run Environment 
+その他 : Create Debug Pipeline Run Environment 
 Creates a debug run environment for the Pipeline.
 Microsoft.DataFactory/factories/pipelines/pipelineruns
-读取 : Read Pipeline Run 
+読み取り : Read Pipeline Run 
 Reads the Pipeline Run.
 Microsoft.DataFactory/factories/pipelines/pipelineruns/activityruns/progress
-读取 : Get the Progress of Activity Runs 
+読み取り : Get the Progress of Activity Runs 
 Gets the Progress of Activity Runs.
 Microsoft.DataFactory/factories/pipelines/sandbox
-其他 : Create Debug Pipeline Run Environment 
+その他 : Create Debug Pipeline Run Environment 
 Creates a debug run environment for the Pipeline.
-其他 : Create Debug Pipeline Run 
+その他 : Create Debug Pipeline Run 
 Creates a debug run for the Pipeline.
 Microsoft.DataFactory/factories/providers/Microsoft.Insights/logDefinitions
-读取 : Read factories log definitions 
+読み取り : Read factories log definitions 
 Gets the available logs for factories
 Microsoft.DataFactory/factories/triggers
-读取 : Read Trigger 
+読み取り : Read Trigger 
 Reads any Trigger.
-写入 : Create or Update Trigger 
+書き込み : Create or Update Trigger 
 Creates or Updates any Trigger.
-删除 : Delete Trigger 
-Deletes any Trigger.
-其他 : Subscribe to Events 
-Subscribe to Events.
-其他 : Event Subscription Status 
-Event Subscription Status.
-其他 : Unsubscribe from Events 
-Unsubscribe from Events.
-其他 : Query subscription events 
-Query subscription events.
-其他 : Delete queued subscription events 
-Delete queued subscription events.
-其他 : Start Trigger 
-Starts any Trigger.
-其他 : Stop Trigger 
-Stops any Trigger.
-Microsoft.DataFactory/factories/triggers/triggerruns
-读取 : Read Trigger Runs 
-Reads the Trigger Runs.
-其他 : Cancel Trigger Run 
-Cancel the Trigger Run with the given trigger run id.
-其他 : Rerun Trigger Run 
-Rerun the Trigger Run with the given trigger run id.
-Microsoft.DataFactory/locations
-其他 : Configure Factory Repository 
-Configures the repository for the factory.
-其他 : Get exposure control feature value 
-Get exposure control feature value for the specific location.
-Microsoft.DataFactory/locations/getFeatureValue
-读取 : Read exposure control feature value 
-Reads exposure control feature value for the specific location.
-Microsoft.DataFactory/checkazuredatafactorynameavailability
-读取 : Check Data Factory Name Availability 
-Checks if the Data Factory Name is available to use.
-Microsoft.DataFactory/operations
-读取 : Read all Operations 
-Reads all Operations in Microsoft Data Factory Provider.
